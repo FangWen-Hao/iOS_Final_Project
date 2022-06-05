@@ -3,6 +3,10 @@
 - Irene
 - Matti
 - Ken
+
+## If Firebase not found, etc 
+- Delete ${FILE_NAME}.xworkspace, podfile.lock, and 'Pods' folder
+- go to terminal and cd to the folder and reinstall pods by inputting : "pod install" in the terminal
  
 <p float="left">
  <img src ="Assets/Banner.png"  />      
