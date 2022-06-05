@@ -233,7 +233,7 @@
 			dependencies = (
 			);
 			name = EaseChat;
-			productName = ChatApp;
+			productName = EaseChat;
 			productReference = 5B375B312486984C00935300 /* EaseChat.app */;
 			productType = "com.apple.product-type.application";
 		};

@@ -1,9 +1,8 @@
 //
 //  User.swift
-//  ChatApp
+//  EaseChat
 //
-//  Created by Aaryan Kothari on 03/06/20.
-//  Copyright © 2020 Aaryan Kothari. All rights reserved.
+//  Created by Starvian Wibowo on 6/06/22.
 //
 
 import Foundation

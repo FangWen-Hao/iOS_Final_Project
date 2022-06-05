@@ -1,9 +1,8 @@
 //
 //  ImageLoader.swift
-//  ModernMVVM
+//  EaseChat
 //
-//  Created by Vadym Bulavin on 2/13/20.
-//  Copyright © 2020 Vadym Bulavin. All rights reserved.
+//  Created by Starvian Wibowo 
 //
 
 import Combine
