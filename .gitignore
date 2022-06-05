@@ -1,0 +1,7 @@
+.DS_Store
+
+# These 2 files can be safely ignored apparently:
+# From: https://stackoverflow.com/questions/62049431/what-does-the-xcschememanagement-plist-file-do-in-xcode-and-can-i-ignore-it-wit
+# From: https://stackoverflow.com/questions/10956312/is-the-project-xcworkspace-file-important
+EaseChat.xcodeproj/xcuserdata/Starvian.xcuserdatad/xcschemes/xcschememanagement.plist
+EaseChat.xcodeproj/project.xcworkspace/contents.xcworkspacedata
