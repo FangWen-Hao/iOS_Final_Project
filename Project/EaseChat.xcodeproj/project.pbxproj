@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39365065FA04CFEC09725E6C /* Pods_EaseChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD4B43E8FAF7AA264D44477 /* Pods_EaseChat.framework */; };
+		5B375B3B2486985300935300 /* New Group in Resources */ = {isa = PBXBuildFile; fileRef = 5B375B3A2486985300935300 /* New Group */; };
+		D10A262E284CFAD8000CA4E4 /* New Group2 in Resources */ = {isa = PBXBuildFile; fileRef = D10A262D284CFAD8000CA4E4 /* New Group2 */; };
+		D1784EE7284CFB440025AEAA /* Preview Content in Resources */ = {isa = PBXBuildFile; fileRef = D1784EE6284CFB440025AEAA /* Preview Content */; };
+		D1784EEA284CFBCE0025AEAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1784EE9284CFBCE0025AEAA /* Assets.xcassets */; };
+		D1784EED284CFC030025AEAA /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = D1784EEC284CFC030025AEAA /* Base.lproj */; };
+		D1784EF0284CFC160025AEAA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D1784EEF284CFC160025AEAA /* GoogleService-Info.plist */; };
+		D1784EFD284CFF1D0025AEAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B375B342486984C00935300 /* AppDelegate.swift */; };
+		D1784EFE284CFF220025AEAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B375B362486984C00935300 /* SceneDelegate.swift */; };
+		D1784EFF284CFF250025AEAA /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B375B4A24869C3800935300 /* SessionStore.swift */; };
+		D1784F00284CFF2A0025AEAA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B375B5C2487556C00935300 /* User.swift */; };
+		D1784F01284CFF2D0025AEAA /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B375B5E248756A000935300 /* Message.swift */; };
+		D1784F02284CFF310025AEAA /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B375B6C248821E700935300 /* ImageCache.swift */; };
+		D1784F03284CFF350025AEAA /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B375B6D248821E700935300 /* ImageLoader.swift */; };
+		D1784F04284CFF380025AEAA /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B375B6E248821E700935300 /* AsyncImage.swift */; };
+		D1784F05284CFF3C0025AEAA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B375B60248756BD00935300 /* Constants.swift */; };
+		D1784F06284CFF3F0025AEAA /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B375B4E2486C15F00935300 /* ErrorHandler.swift */; };
+		D1784F07284CFF430025AEAA /* Keyboard+notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B375B562486C8AD00935300 /* Keyboard+notification.swift */; };
+		D1784F08284CFF470025AEAA /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B375B542486C66400935300 /* ImagePicker.swift */; };
+		D1784F09284CFF4B0025AEAA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B375B722488AC0A00935300 /* Extensions.swift */; };
+		D1784F0A284CFF4E0025AEAA /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B375B522486C63200935300 /* CustomModifiers.swift */; };
+		D1784F0B284CFF530025AEAA /* ShimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7BACD5248A8B15003BAEEA /* ShimmerView.swift */; };
+		D1784F0C284CFF590025AEAA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B375B4C2486B9DA00935300 /* ContentView.swift */; };
+		D1784F0D284CFF5D0025AEAA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B375B382486984C00935300 /* HomeView.swift */; };
+		D1784F0E284CFF610025AEAA /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B375B502486C2B300935300 /* SignUpView.swift */; };
+		D1784F0F284CFF640025AEAA /* ChatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B375B62248758EB00935300 /* ChatsView.swift */; };
+		D1784F10284CFF670025AEAA /* NewChatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B375B6424875F8F00935300 /* NewChatsView.swift */; };
+		D1784F11284CFF6A0025AEAA /* ChatLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B375B662487C4D900935300 /* ChatLogView.swift */; };
+		D1784F12284CFF6F0025AEAA /* ChatRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B375B6824881A0400935300 /* ChatRow.swift */; };
+		D1784F5D284D0CE80025AEAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B375B3F2486985300935300 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B375B312486984C00935300 /* EaseChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EaseChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B375B342486984C00935300 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../New Group2/AppDelegate.swift"; sourceTree = "<group>"; };
+		5B375B362486984C00935300 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5B375B382486984C00935300 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5B375B3A2486985300935300 /* New Group */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "New Group"; path = "EaseChat/New Group"; sourceTree = "<group>"; };
+		5B375B402486985300935300 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B375B422486985300935300 /* New Group1 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "New Group1"; path = "EaseChat/New Group1"; sourceTree = "<group>"; };
+		5B375B4A24869C3800935300 /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SessionStore.swift; path = "../New Group/SessionStore.swift"; sourceTree = "<group>"; };
+		5B375B4C2486B9DA00935300 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5B375B4E2486C15F00935300 /* ErrorHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
+		5B375B502486C2B300935300 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		5B375B522486C63200935300 /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomModifiers.swift; path = "../New Group1/CustomModifiers.swift"; sourceTree = "<group>"; };
+		5B375B542486C66400935300 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		5B375B562486C8AD00935300 /* Keyboard+notification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Keyboard+notification.swift"; sourceTree = "<group>"; };
+		5B375B5C2487556C00935300 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5B375B5E248756A000935300 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		5B375B60248756BD00935300 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5B375B62248758EB00935300 /* ChatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsView.swift; sourceTree = "<group>"; };
+		5B375B6424875F8F00935300 /* NewChatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewChatsView.swift; sourceTree = "<group>"; };
+		5B375B662487C4D900935300 /* ChatLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatLogView.swift; sourceTree = "<group>"; };
+		5B375B6824881A0400935300 /* ChatRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRow.swift; sourceTree = "<group>"; };
+		5B375B6C248821E700935300 /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		5B375B6D248821E700935300 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		5B375B6E248821E700935300 /* AsyncImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
+		5B375B722488AC0A00935300 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		5B7BACD5248A8B15003BAEEA /* ShimmerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerView.swift; sourceTree = "<group>"; };
+		7899737F23ADAE2F3063A00D /* Pods-EaseChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EaseChat.debug.xcconfig"; path = "Target Support Files/Pods-EaseChat/Pods-EaseChat.debug.xcconfig"; sourceTree = "<group>"; };
+		AAD4B43E8FAF7AA264D44477 /* Pods_EaseChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EaseChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D10A262D284CFAD8000CA4E4 /* New Group2 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "New Group2"; path = "EaseChat/New Group2"; sourceTree = "<group>"; };
+		D1784EE6284CFB440025AEAA /* Preview Content */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Preview Content"; path = "EaseChat/Preview Content"; sourceTree = "<group>"; };
+		D1784EE9284CFBCE0025AEAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = EaseChat/Assets.xcassets; sourceTree = "<group>"; };
+		D1784EEC284CFC030025AEAA /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Base.lproj; path = EaseChat/Base.lproj; sourceTree = "<group>"; };
+		D1784EEF284CFC160025AEAA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "EaseChat/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D1784EF2284CFC260025AEAA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = EaseChat/Info.plist; sourceTree = "<group>"; };
+		E0FE368F0ACB3D36FCF7D2C0 /* Pods-EaseChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EaseChat.release.xcconfig"; path = "Target Support Files/Pods-EaseChat/Pods-EaseChat.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B375B2E2486984C00935300 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39365065FA04CFEC09725E6C /* Pods_EaseChat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F05DABD4BE010B7526A40F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7899737F23ADAE2F3063A00D /* Pods-EaseChat.debug.xcconfig */,
+				E0FE368F0ACB3D36FCF7D2C0 /* Pods-EaseChat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5B375B282486984B00935300 = {
+			isa = PBXGroup;
+			children = (
+				5B375B332486984C00935300 /* EaseChat */,
+				5B375B322486984C00935300 /* Products */,
+				4F05DABD4BE010B7526A40F3 /* Pods */,
+				5DD1D17CD139AEC49D583509 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5B375B322486984C00935300 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B375B312486984C00935300 /* EaseChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B375B332486984C00935300 /* EaseChat */ = {
+			isa = PBXGroup;
+			children = (
+				D1784EF2284CFC260025AEAA /* Info.plist */,
+				D1784EEF284CFC160025AEAA /* GoogleService-Info.plist */,
+				D1784EEC284CFC030025AEAA /* Base.lproj */,
+				D1784EE9284CFBCE0025AEAA /* Assets.xcassets */,
+				D1784EE6284CFB440025AEAA /* Preview Content */,
+				D10A262D284CFAD8000CA4E4 /* New Group2 */,
+				5B375B6A2488206300935300 /* App */,
+				5B375B582487552000935300 /* Model */,
+				5B375B5B2487555300935300 /* Utilities */,
+				5B375B5A2487554200935300 /* CustomView */,
+				5B375B592487552E00935300 /* View */,
+				5B375B3A2486985300935300 /* New Group */,
+				5B375B3F2486985300935300 /* LaunchScreen.storyboard */,
+				5B375B422486985300935300 /* New Group1 */,
+			);
+			name = EaseChat;
+			sourceTree = "<group>";
+		};
+		5B375B582487552000935300 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5B375B4A24869C3800935300 /* SessionStore.swift */,
+				5B375B5C2487556C00935300 /* User.swift */,
+				5B375B5E248756A000935300 /* Message.swift */,
+			);
+			name = Model;
+			path = EaseChat/Model;
+			sourceTree = "<group>";
+		};
+		5B375B592487552E00935300 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5B375B4C2486B9DA00935300 /* ContentView.swift */,
+				5B375B382486984C00935300 /* HomeView.swift */,
+				5B375B502486C2B300935300 /* SignUpView.swift */,
+				5B375B62248758EB00935300 /* ChatsView.swift */,
+				5B375B6424875F8F00935300 /* NewChatsView.swift */,
+				5B375B662487C4D900935300 /* ChatLogView.swift */,
+				5B375B6824881A0400935300 /* ChatRow.swift */,
+			);
+			name = View;
+			path = EaseChat/View;
+			sourceTree = "<group>";
+		};
+		5B375B5A2487554200935300 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				5B375B522486C63200935300 /* CustomModifiers.swift */,
+				5B7BACD5248A8B15003BAEEA /* ShimmerView.swift */,
+			);
+			name = CustomView;
+			path = EaseChat/CustomView;
+			sourceTree = "<group>";
+		};
+		5B375B5B2487555300935300 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5B375B6B248821E700935300 /* AsyncImage */,
+				5B375B60248756BD00935300 /* Constants.swift */,
+				5B375B4E2486C15F00935300 /* ErrorHandler.swift */,
+				5B375B562486C8AD00935300 /* Keyboard+notification.swift */,
+				5B375B542486C66400935300 /* ImagePicker.swift */,
+				5B375B722488AC0A00935300 /* Extensions.swift */,
+			);
+			name = Utilities;
+			path = EaseChat/Utilities;
+			sourceTree = "<group>";
+		};
+		5B375B6A2488206300935300 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5B375B342486984C00935300 /* AppDelegate.swift */,
+				5B375B362486984C00935300 /* SceneDelegate.swift */,
+			);
+			name = App;
+			path = EaseChat/App;
+			sourceTree = "<group>";
+		};
+		5B375B6B248821E700935300 /* AsyncImage */ = {
+			isa = PBXGroup;
+			children = (
+				5B375B6C248821E700935300 /* ImageCache.swift */,
+				5B375B6D248821E700935300 /* ImageLoader.swift */,
+				5B375B6E248821E700935300 /* AsyncImage.swift */,
+			);
+			path = AsyncImage;
+			sourceTree = "<group>";
+		};
+		5DD1D17CD139AEC49D583509 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAD4B43E8FAF7AA264D44477 /* Pods_EaseChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B375B302486984C00935300 /* EaseChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B375B452486985400935300 /* Build configuration list for PBXNativeTarget "EaseChat" */;
+			buildPhases = (
+				03D93ECDA76E7E6801914EEB /* [CP] Check Pods Manifest.lock */,
+				5B375B2D2486984C00935300 /* Sources */,
+				5B375B2E2486984C00935300 /* Frameworks */,
+				5B375B2F2486984C00935300 /* Resources */,
+				2B195014A0C12E54AD61206C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EaseChat;
+			productName = ChatApp;
+			productReference = 5B375B312486984C00935300 /* EaseChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B375B292486984B00935300 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = Starvian;
+				TargetAttributes = {
+					5B375B302486984C00935300 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 5B375B2C2486984B00935300 /* Build configuration list for PBXProject "EaseChat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B375B282486984B00935300;
+			productRefGroup = 5B375B322486984C00935300 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B375B302486984C00935300 /* EaseChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B375B2F2486984C00935300 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1784F5D284D0CE80025AEAA /* LaunchScreen.storyboard in Resources */,
+				D1784EE7284CFB440025AEAA /* Preview Content in Resources */,
+				D10A262E284CFAD8000CA4E4 /* New Group2 in Resources */,
+				5B375B3B2486985300935300 /* New Group in Resources */,
+				D1784EED284CFC030025AEAA /* Base.lproj in Resources */,
+				D1784EEA284CFBCE0025AEAA /* Assets.xcassets in Resources */,
+				D1784EF0284CFC160025AEAA /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03D93ECDA76E7E6801914EEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EaseChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B195014A0C12E54AD61206C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EaseChat/Pods-EaseChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EaseChat/Pods-EaseChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EaseChat/Pods-EaseChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B375B2D2486984C00935300 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1784F12284CFF6F0025AEAA /* ChatRow.swift in Sources */,
+				D1784F11284CFF6A0025AEAA /* ChatLogView.swift in Sources */,
+				D1784F10284CFF670025AEAA /* NewChatsView.swift in Sources */,
+				D1784F0F284CFF640025AEAA /* ChatsView.swift in Sources */,
+				D1784F0E284CFF610025AEAA /* SignUpView.swift in Sources */,
+				D1784F0D284CFF5D0025AEAA /* HomeView.swift in Sources */,
+				D1784F0C284CFF590025AEAA /* ContentView.swift in Sources */,
+				D1784F0B284CFF530025AEAA /* ShimmerView.swift in Sources */,
+				D1784F0A284CFF4E0025AEAA /* CustomModifiers.swift in Sources */,
+				D1784F09284CFF4B0025AEAA /* Extensions.swift in Sources */,
+				D1784F08284CFF470025AEAA /* ImagePicker.swift in Sources */,
+				D1784F07284CFF430025AEAA /* Keyboard+notification.swift in Sources */,
+				D1784F06284CFF3F0025AEAA /* ErrorHandler.swift in Sources */,
+				D1784F05284CFF3C0025AEAA /* Constants.swift in Sources */,
+				D1784F04284CFF380025AEAA /* AsyncImage.swift in Sources */,
+				D1784F03284CFF350025AEAA /* ImageLoader.swift in Sources */,
+				D1784F02284CFF310025AEAA /* ImageCache.swift in Sources */,
+				D1784F01284CFF2D0025AEAA /* Message.swift in Sources */,
+				D1784F00284CFF2A0025AEAA /* User.swift in Sources */,
+				D1784EFF284CFF250025AEAA /* SessionStore.swift in Sources */,
+				D1784EFE284CFF220025AEAA /* SceneDelegate.swift in Sources */,
+				D1784EFD284CFF1D0025AEAA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5B375B3F2486985300935300 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B375B402486985300935300 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = EaseChat;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B375B432486985300935300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				"INFOPLIST_FILE[sdk=*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B375B442486985300935300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B375B462486985400935300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7899737F23ADAE2F3063A00D /* Pods-EaseChat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"EaseChat/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/EaseChat/GoogleService-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = starvian.EaseChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B375B472486985400935300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0FE368F0ACB3D36FCF7D2C0 /* Pods-EaseChat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"EaseChat/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/EaseChat/GoogleService-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = starvian.EaseChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B375B2C2486984B00935300 /* Build configuration list for PBXProject "EaseChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B375B432486985300935300 /* Debug */,
+				5B375B442486985300935300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B375B452486985400935300 /* Build configuration list for PBXNativeTarget "EaseChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B375B462486985400935300 /* Debug */,
+				5B375B472486985400935300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B375B292486984B00935300 /* Project object */;
+}
