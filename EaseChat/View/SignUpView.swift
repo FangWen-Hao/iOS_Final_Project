@@ -61,8 +61,8 @@ struct SignupView: View {
                 Group{
                 TextField("Full Name", text: $name)
                 TextField("Email ID", text: $email)
-                TextField("Password", text: $password)
-                TextField("Confirm Password", text: $confirmpassword)
+                SecureField("Password", text: $password)
+                SecureField("Confirm Password", text: $confirmpassword)
 
                 }.modifier(CustomTextField())
                 
