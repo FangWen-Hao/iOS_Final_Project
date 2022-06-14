@@ -69,7 +69,9 @@ struct HomeView: View {
             return
         }
         
-        session.signIn(email: email, password: password) { (result, error) in
+        let authEmail = email.trimmingCharacters(in: .whitespacesAndNewlines)
+        
+        session.signIn(email: authEmail, password: password) { (result, error) in
             if let error = error{
                 self.error = error.authErrorValue
                 self.showingAlert = true
